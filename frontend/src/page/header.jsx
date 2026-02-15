@@ -14,18 +14,18 @@ export default function Header() {
   ];
 
   return (
-    <div className="w-full h-full bg-[#0a0a0f] flex items-center px-8 border-b border-[#2d1b4e]">
+    <div className="inter w-full h-full bg-[#0a0a0f] flex items-center px-8 border-b border-[#2d1b4e]">
       {/* Logo Section */}
       <div className="flex items-center gap-2 mr-10">
         <FaGamepad className="text-3xl text-[#9f7aea]" />
-        <h1 className="text-2xl font-bold tracking-tight">
+        <h1 className="inter text-2xl font-extrabold tracking-tight">
           <span className="text-white">Play</span>
           <span className="text-[#9f7aea]">Tuner</span>
         </h1>
       </div>
 
       {/* Navigation Links */}
-      <nav className="flex items-center gap-8 flex-1">
+      <nav className="flex items-center gap-8 flex-1 ml-10">
         {navItems.map((item) => (
           <Link
             key={item.path}

@@ -30,7 +30,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="w-full h-full bg-[#0a0a0f] border-r border-[#2d1b4e] py-8">
+    <div className=" w-full h-full bg-[#0a0a0f] border-r border-[#2d1b4e] py-8">
       <ul className="space-y-2 px-3">
         {menuItems.map((item) => (
           <li key={item.key}>
@@ -43,7 +43,7 @@ export default function Sidebar() {
               }`}
             >
               <span>{item.icon}</span>
-              <span className="text-sm font-medium">{item.label}</span>
+              <span className="poppins text-sm font-semibold">{item.label}</span>
             </button>
           </li>
         ))}
