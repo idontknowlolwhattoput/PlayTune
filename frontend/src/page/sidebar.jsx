@@ -19,14 +19,9 @@ export default function Sidebar() {
     },
     { 
       key: "fps",
-      label: "FPS Prediction", 
+      label: "FPS Benchmark", 
       icon: <FaChartLine className="text-xl" />
     },
-    { 
-      key: "hardware",
-      label: "Hardware Benchmark", 
-      icon: <FaMicrochip className="text-xl" />
-    }
   ];
 
   return (
