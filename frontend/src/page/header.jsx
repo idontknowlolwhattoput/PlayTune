@@ -20,7 +20,7 @@ export default function Header() {
         <FaGamepad className="text-3xl text-[#9f7aea]" />
         <h1 className="text-2xl font-bold tracking-tight">
           <span className="text-white">Play</span>
-          <span className="text-[#9f7aea]">Tune</span>
+          <span className="text-[#9f7aea]">Tuner</span>
         </h1>
       </div>
 
