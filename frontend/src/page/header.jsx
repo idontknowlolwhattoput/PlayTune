@@ -19,8 +19,8 @@ export default function Header() {
       <div className="flex items-center gap-2 mr-10">
         <FaGamepad className="text-3xl text-[#9f7aea]" />
         <h1 className="text-2xl font-bold tracking-tight">
-          <span className="text-white">Game</span>
-          <span className="text-[#9f7aea]">Spec</span>
+          <span className="text-white">Play</span>
+          <span className="text-[#9f7aea]">Tune</span>
         </h1>
       </div>
 
